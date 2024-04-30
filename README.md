@@ -1,4 +1,4 @@
-# Quadratic Model Training with Varying Learning Rates
+# SGD Optimizer & Neural Network 
 
 This repository contains a Python script that demonstrates how to train a quadratic regression model using Stochastic Gradient Descent (SGD) with different learning rates. The purpose of this project is to explore the effects of varying the learning rate on the model's training process and convergence.
 
