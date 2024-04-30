@@ -1,16 +1,5 @@
 
-## Project Title: SGD Optimizer
-
-### Team Name: AI Wizards
-
-### Team Members:
-1. Lokeshprasanth Gadesula, S02059399, Graduate
-2. Siva Kalyan Reddy Kancharla, S02054983, Graduate
-3. Gottam Sri Pawan Kalyan Reddy, S02061041, Graduate
-4. Raghu Satram, S02058552, Graduate
-5. Cyril Chowdary Thoomu, S02059332, Graduate
-6. Shake Tanver Mahmud, S02061733, Graduate
-7. Venkata Ravindra, S02060445, Graduate
+## SGD Optimizer
 
 ### Project Overview:
 This project focuses on implementing quadratic regression using Gradient Descent (GD) and Stochastic Gradient Descent (SGD) optimization algorithms. The goal is to fit a quadratic curve to a set of data points using a model with at least three features. The project includes two main parts: 
@@ -69,6 +58,8 @@ Limitations:
 ## Usage
 1. Install required dependencies: `pip install -r requirements.txt`
 2. Run the `predictive_maintenance.py` script to train the model and make predictions.
+
+### Team Name: AI Wizards
 
 ## Contributors
 - Lokeshprasanth Gadesula
