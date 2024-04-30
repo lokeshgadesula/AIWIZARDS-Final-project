@@ -1,6 +1,5 @@
-# README
 
-## Project Title: Quadratic Regression with Gradient Descent and Stochastic Gradient Descent
+## Project Title: SGD Optimizer
 
 ### Team Name: AI Wizards
 
@@ -40,3 +39,46 @@ The source code for each component of the project is provided in Python using Te
 
 ### Conclusion:
 This project provides a comprehensive exploration of quadratic regression using optimization algorithms like Gradient Descent and Stochastic Gradient Descent. By conducting experiments with varying model complexities and learning rates, the project aims to deepen understanding of optimization techniques in machine learning regression tasks.
+
+# Neural Network 
+
+## Motivation and Significance
+Predictive maintenance is crucial in industrial settings to minimize downtime and ensure safety. This project aims to use machine learning to predict equipment failures based on vibration data, allowing for proactive maintenance and resource optimization.
+
+## References
+- Sikorska, J.Z., et al. "Prognostic modelling options for remaining useful life estimation by industry." Mechanical Systems and Signal Processing 25.5 (2011): 1803-1836.
+- Lei, Y., et al. "A review on empirical mode decomposition in fault diagnosis of rotating machinery." Mechanical Systems and Signal Processing 35.1-2 (2013): 108-126.
+
+## Methodology
+- Data Preprocessing: Vibration data was collected and preprocessed, including noise filtering and feature extraction.
+- Model Training: A Random Forest classifier was trained on historical data labeled with 'normal operation' and 'failure' states.
+- Evaluation: The model's performance was evaluated using metrics such as accuracy, precision, and feature importance.
+
+## Results
+The model achieved an accuracy of 95%, with a precision of 96% for failure detection. Key features such as RMS and kurtosis were identified as significant predictors of failures.
+
+## Strengths and Limitations
+Strengths:
+- High accuracy and precision in failure prediction.
+- Real-time implementation using existing sensor data.
+
+Limitations:
+- Dependency on high-quality, labeled training data.
+- Potential cost and time implications for obtaining labeled data.
+
+## Usage
+1. Install required dependencies: `pip install -r requirements.txt`
+2. Run the `predictive_maintenance.py` script to train the model and make predictions.
+
+## Contributors
+- Lokeshprasanth Gadesula
+- Siva Kalyan Reddy Kancharla
+- Gottam Sri Pawan Kalyan Reddy
+- Raghu Satram
+- Cyril Chowdary Thoomu
+- Shake Tanver Mahmud
+- Venkata Ravindra
+
+## Acknowledgments
+We would like to express our gratitude to Professor Fabio Santos for his guidance and support throughout this project.
+
